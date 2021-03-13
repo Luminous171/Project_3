@@ -47,7 +47,7 @@ Our solution is to replace the archaic process of calling and requesting for pro
 
 ### c. Auction Contract Functions <a name="auctionfunctions"></a>
 
-[See Eli's google doc]
+[See documentation](https://docs.google.com/document/d/1Fq932vwgDW1wLXijvU0Vx_opCvKC-jUVZYIqZnFBtMA/edit)
 
 ## 3. Crowdsale Smart Contract to distribute loan risk <a name="crowdsale"></a>
 
@@ -64,7 +64,7 @@ Our solution is to deploy a token crowdsale to replace the manual process of cal
 
 ### c. Crowdsale Contract Functions <a name="#crowdsalecontractfunctions"></a>
 
-[See Eli's google doc]
+[See documentation](https://docs.google.com/document/d/1Fq932vwgDW1wLXijvU0Vx_opCvKC-jUVZYIqZnFBtMA/edit)
 
 ## 4. Benefits of doing loan syndication on the Blockchain <a name="blockchain"></a>
 
@@ -81,7 +81,7 @@ There is no native automation of periodic process in solidity.  A user has to ca
 
 ## 7. Contract Deployment Instructions <a name="instructions"></a>
 
-[See Eli's google doc]
+[See documentation](https://docs.google.com/document/d/1Fq932vwgDW1wLXijvU0Vx_opCvKC-jUVZYIqZnFBtMA/edit)
 
 ## 8. Appendix <a name="Appendix"></a>
 
