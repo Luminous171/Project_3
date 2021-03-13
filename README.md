@@ -24,7 +24,7 @@ Code developed by Arthur Moran, Ben Fischler, Eli Holden, Nika Chan and Phil Wad
 
 ## 1. Introduction <a name="Introduction"></a>
     
-In this project, we replicated the loan syndication process using smart contracts built on the Ethereum blockchain. Loan syndication is the process of involving a group of lenders in funding various portions of a loan for a single borrower. It most often occurs when the borrower requires an amount that is too large for any single bank to provide. 
+In this project, we replicate the loan syndication process using smart contracts built on the Ethereum blockchain.  Loan syndication is the process of involving a group of lenders in funding portions of a loan for a single borrower. It most often occurs when the borrower requires an amount that is too large for any single bank to provide. 
 
 ![Primer](Images/primer.png)
 
@@ -32,7 +32,11 @@ In this project, we replicated the loan syndication process using smart contract
 
 ### a. How Lead Arrangers are chosen today <a name="manager"></a>
 
-[Phil to write something here]
+Today, potential 'underwriters' (or 'lead arrangers') submit offers to the borrower in a tender, bid, or auction process.  This offer usually specifies an interest rate, a fee, and high level terms which the lead arranger believes are 'market clearing' (i.e. terms at which a syndicate of banks would be willing to lend to the borrower).  In a competitive market, the winning offer should comprise the lowest interest rate and fee combination.
+
+The underwriter who 'wins' this tender, bid, or auction process then guarantees the funds to the borrower at the terms specified.  It is then incumbent on the underwriter/ lead arranger to distribute the loan to an interested pool of participant banks.
+
+We estimate that the volume of commercial loans made to corproates in North America is circa $2.1trn per annum, with estimated fees of >$10bn paid to banks involved in the underwriting, arrangement, execution, and administration of such loans.
 
 ### b. Our solution: Reverse Auction <a name="reverseauction"></a>
 
@@ -43,13 +47,13 @@ Our solution is to replace the archaic process of calling and requesting for pro
 
 ### c. Auction Contract Functions <a name="auctionfunctions"></a>
 
-
+[See Eli's google doc]
 
 ## 3. Crowdsale Smart Contract to distribute loan risk <a name="crowdsale"></a>
 
 ### a. How risk distribution works today <a name="distribution"></a>
 
-[Phil to write something here]
+Today, the 'syndication' (or 'distribution') process involves the underwriter contacting and coordinating with potentially interested participants.  This process involves guaging investor appetite, organizing investor materials, coordinating the credit approval process, and drafting loan documentation (with legal council).  The whole process can take four to six weeks, and a large loan syndication might require forty participants.
 
 ### b. Our solution: Crowdsale <a name="#crowdsalecontract"></a>
 
@@ -60,14 +64,15 @@ Our solution is to deploy a token crowdsale to replace the manual process of cal
 
 ### c. Crowdsale Contract Functions <a name="#crowdsalecontractfunctions"></a>
 
+[See Eli's google doc]
 
 ## 4. Benefits of doing loan syndication on the Blockchain <a name="blockchain"></a>
 
-[Some thoughts: Transparency between smaller lenders to trade amongst themselves, token as collateral]
+For the underwriter/ lead arranger, we beleive there may be significant cost savings to the administration of the syndication process.  For the participant banks, more transpancy and liquidity for the class of fungible tokens minted in the process may enable more widespread trading of loan assets.  In a competitive market the borrower should ultimately be able to achieve lower rates and fees.  
 
 ## 5. Limitations and What can be Improved <a name="Conclusion"></a> 
 
-[Some thoughts: Interest Payments, Trading between lenders,]
+There is no native automation of periodic process in solidity.  A user has to call a function.  Syndicated loans are usually structured with periodic interest payments (at three month or six month intervals for example).  At the moment interest is calculated by the borrower and added to principal remapyment at the end of the loan term.  Automation may require a web3 solution in Python.  
 
 ## 6. Considerations for Grading <a name="Grading"></a>
 
@@ -76,11 +81,12 @@ Our solution is to deploy a token crowdsale to replace the manual process of cal
 
 ## 7. Contract Deployment Instructions <a name="instructions"></a>
 
+[See Eli's google doc]
 
 ## 8. Appendix <a name="Appendix"></a>
 
 - **Dependencies:** Solidity, Remix, Ganache
-- [Google Slides Presentation](https://docs.google.com/presentation/d/1_tepvZxLrKLFqL0axp8NUvwEJ_13l8m39PQBygmd8Xo/edit#slide=id.gb8b04f1f11_0_79)
+- [Google Slides Presentation](https://docs.google.com/presentation/d/1K1VmnZDQIOmeCtK0qjW2Ku28JNX6BfrWNBkMgs7LzBQ/edit#slide=id.gc7142b1278_0_83)
 
 ## 9. D-app Demo <a name="Demo"></a>
 
