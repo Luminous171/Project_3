@@ -16,8 +16,9 @@ Code developed by Arthur Moran, Ben Fischler, Eli Holden, Nika Chan and Phil Wad
 4. [Benefits of doing loan syndication on the Blockchain](#blockchain)
 5. [Limitations and What can be Improved](#Conclusion)
 6. [Considerations for Grading](#Grading)
-7. [Appendix](#Appendix)
-8. [D-app Demo](#Demo)
+7. [Contract Deployment Instructions](#instructions)
+8. [Appendix](#Appendix)
+9. [D-app Demo](#Demo)
 
 <p>&nbsp;</p>
 
@@ -35,7 +36,7 @@ In this project, we replicated the loan syndication process using smart contract
 
 ### b. Our solution: Reverse Auction <a name="reverseauction"></a>
 
-Our solution is to replace the archaic process of calling and requesting for proposals from several banks. a Reverse Auction via smart contracts makes the process faster and more transparent. It also has the potential benefit of lowering the interest rate for the borrower. In this section of the smart contract, we are using the openzeppelin auction library to conduct an auction where banks bid for the loan by submitting an "interest rate bid", the winner of the auction is the bank that submits the lowest interest rate. 
+Our solution is to replace the archaic process of calling and requesting for proposals from several banks. a Reverse Auction via smart contracts makes the process faster and more transparent. It also has the potential benefit of lowering the interest rate for the borrower. In this section of the smart contract, we are using the openzeppelin auction library to conduct an auction where banks bid for the loan by submitting an "interest rate bid", the winner of the auction is the bank that submits the lowest interest rate. Below is an example of a borrower with a large loan requirement going through the smart contract.
 
 ![auction](Images/auction.png)
 
@@ -52,7 +53,7 @@ Our solution is to replace the archaic process of calling and requesting for pro
 
 ### b. Our solution: Crowdsale <a name="#crowdsalecontract"></a>
 
-Our solution is to deploy a token crowdsale to replace the manual process of calling up other banks to participate in the loan. The lead arranger, having won the loan from the reverse auction, now has the right to mint fungible tokens that other lenders can buy in exchange for Ether. These tokens are made fungible to make them tradeable between lenders.
+Our solution is to deploy a token crowdsale to replace the manual process of calling up other banks to participate in the loan. The lead arranger, having won the loan from the reverse auction, now has the right to mint fungible tokens that other lenders can buy in exchange for Ether. These tokens are made fungible to make them tradeable between lenders. Following through with our previous example, the diagram below shows how the crowdsale would work.
 
 ![crowdsale](Images/crowdsale.png)
 
@@ -71,13 +72,16 @@ Our solution is to deploy a token crowdsale to replace the manual process of cal
 ## 6. Considerations for Grading <a name="Grading"></a>
 
 - Fintech application: Created a loan syndication d-app
-
 - Tools used: Used OpenZeppelin for the smart contracts, Ganache for our wallet
 
-## 7. Appendix <a name="Appendix"></a>
+## 7. Contract Deployment Instructions <a name="instructions"></a>
 
+
+## 8. Appendix <a name="Appendix"></a>
+
+- **Dependencies:** Solidity, Remix, Ganache
 - [Google Slides Presentation](https://docs.google.com/presentation/d/1_tepvZxLrKLFqL0axp8NUvwEJ_13l8m39PQBygmd8Xo/edit#slide=id.gb8b04f1f11_0_79)
 
-## 8. D-app Demo <a name="Demo"></a>
+## 9. D-app Demo <a name="Demo"></a>
 
 
