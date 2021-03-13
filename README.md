@@ -36,7 +36,7 @@ Today, potential 'underwriters' (or 'lead arrangers') submit offers to the borro
 
 The underwriter who 'wins' this tender, bid, or auction process then guarantees the funds to the borrower at the terms specified.  It is then incumbent on the underwriter/ lead arranger to distribute the loan to an interested pool of participant banks.
 
-We estimate that the volume of commercial loans made to corproates in North America is circa $2.1trn per annum, with estimated fees of >$10bn paid to banks involved in the underwriting, arrangement, execution, and administration of such loans.
+We estimate that the volume of commercial loans made to corporates in North America is circa $2.1trn per annum, with estimated fees of >$10bn paid to banks involved in the underwriting, arrangement, execution, and administration of such loans.
 
 ### b. Our solution: Reverse Auction <a name="reverseauction"></a>
 
@@ -53,7 +53,9 @@ Our solution is to replace the archaic process of calling and requesting for pro
 
 ### a. How risk distribution works today <a name="distribution"></a>
 
-Today, the 'syndication' (or 'distribution') process involves the underwriter contacting and coordinating with potentially interested participants.  This process involves guaging investor appetite, organizing investor materials, coordinating the credit approval process, and drafting loan documentation (with legal council).  The whole process can take four to six weeks, and a large loan syndication might require forty participants.
+Today, the syndication (or distribution) process involves the underwriter contacting and coordinating with potentially interested participants.  This process gauges investor appetite, organizes investor materials, coordinates the credit approval process accross the participant banks, and drafts loan documentation (with legal council).  The whole process can take four to six weeks, and a large loan syndication might require forty participants.
+
+Participants who may wish to trade the loan in future do not always know who owns it and who may want to buy it.  These banks often have to cross a trading desk (and potentially paying a fee to the underwriter) to do so.
 
 ### b. Our solution: Crowdsale <a name="#crowdsalecontract"></a>
 
@@ -68,7 +70,7 @@ Our solution is to deploy a token crowdsale to replace the manual process of cal
 
 ## 4. Benefits of doing loan syndication on the Blockchain <a name="blockchain"></a>
 
-For the underwriter/ lead arranger, we beleive there may be significant cost savings to the administration of the syndication process.  For the participant banks, more transpancy and liquidity for the class of fungible tokens minted in the process may enable more widespread trading of loan assets.  In a competitive market the borrower should ultimately be able to achieve lower rates and fees.  
+For the underwriter/ lead arranger, we believe there may be significant cost savings to the administration of the bidding and syndication process.  For the participant banks, more transpancy and liquidity for the class of fungible tokens minted in the process may enable more widespread trading of loan assets.  In a competitive market the borrower should ultimately be able to achieve lower rates and fees.  
 
 ## 5. Limitations and What can be Improved <a name="Conclusion"></a> 
 
