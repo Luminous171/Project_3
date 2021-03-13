@@ -74,7 +74,9 @@ For the underwriter/ lead arranger, we believe there may be significant cost sav
 
 ## 5. Limitations and What can be Improved <a name="Conclusion"></a> 
 
-There is no native automation of periodic process in solidity.  A user has to call a function.  Syndicated loans are usually structured with periodic interest payments (at three month or six month intervals for example).  At the moment interest is calculated by the borrower and added to principal remapyment at the end of the loan term.  Automation may require a web3 solution in Python.  
+There is no native automation of periodic process in solidity.  A user has to call a function.  Syndicated loans are usually structured with periodic interest payments (at three month or six month intervals for example).  At the moment interest is calculated by the borrower and added to principal remapyment at the end of the loan term.  Automation may require a web3 solution in Python.
+
+Optimization of Auction and Crowdsale contracts to minimize gas costs in deployment.
 
 ## 6. Considerations for Grading <a name="Grading"></a>
 
