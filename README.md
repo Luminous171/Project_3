@@ -3,7 +3,7 @@
 
 Code developed by Arthur Moran, Ben Fischler, Eli Holden, Nika Chan and Phil Waddilove
 
-![logo](Images/SYN.png)
+![logo](Images/SYN2.png)
 
 ### Table of Contents
 1. [Introduction](#Introduction)
