@@ -3,6 +3,8 @@
 
 Code developed by Arthur Moran, Ben Fischler, Eli Holden, Nika Chan and Phil Waddilove
 
+![logo](Images/SYN.png)
+
 ### Table of Contents
 1. [Introduction](#Introduction)
 2. [Reverse Auction Smart Contract to set the Borrower's Interest Rate](#auction)
@@ -148,15 +150,19 @@ Optimization of Auction and Crowdsale contracts to minimize gas costs in deploym
 
 ## 8. Appendix <a name="Appendix"></a>
 
-- **Dependencies:** Solidity, Remix, Ganache
+- This contract's Github Page: [Loan Syndication Github Page](https://nikanikachan.github.io/p3_loansyndication/)
+- **Dependencies:** Solidity, Remix, Ganache, Metamask
 - [Google Slides Presentation](https://docs.google.com/presentation/d/1K1VmnZDQIOmeCtK0qjW2Ku28JNX6BfrWNBkMgs7LzBQ/edit#slide=id.gc7142b1278_0_83)
 
 ## 9. D-app Demo <a name="Demo"></a>
 
-- For this section, please make sure you are in our Github page: [Loan Syndication](https://nikanikachan.github.io/p3_loansyndication/)
 - Your metamask should be in the Ropsten network to see all the features
 - Click [here](https://nikanikachan.github.io/p3_loansyndication/Frontend/index.html) to launch the Auction front end of our loan syndication contract.
 
 **Note that for the purpose of this demo, the loan amount has been set to 1 ETH for easier testing.
+
+If you do not have Metamesk installed, See GIF demo below:
+
+![gif](Images/auction.gif)
 
 
