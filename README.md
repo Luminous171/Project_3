@@ -3,7 +3,7 @@
 
 Code developed by Arthur Moran, Ben Fischler, Eli Holden, Nika Chan and Phil Waddilove
 
-![logo](Images/SYN2.png)
+![logo](Images/SYN3.png)
 
 ### Table of Contents
 1. [Introduction](#Introduction)
@@ -130,7 +130,7 @@ Optimization of Auction and Crowdsale contracts to minimize gas costs in deploym
 
 4. Select `LoanAuction` from the contract dropdown in the Deployment section of Remix
 
-5. Copy the `auction_address` from **LOANCONTRACTDEPLOYER AT Ox** and paste it into the `At Address` field of the deployment section. Click on the `At Address` button and this should generate a new contract named **LOANAUCTION AT 0x**.
+5. Copy the `auction_address` from **LOANCONTRACTDEPLOYER AT 0x** and paste it into the `At Address` field of the deployment section. Click on the `At Address` button and this should generate a new contract named **LOANAUCTION AT 0x**.
 
 6. Competing syndicate managers can use the `bid button` under **LOANAUCTION AT 0x** to bid for the full amount of the loan at the lowest interest rate they are willing to receive.
 
