@@ -154,7 +154,8 @@ Optimization of Auction and Crowdsale contracts to minimize gas costs in deploym
 ## 9. D-app Demo <a name="Demo"></a>
 
 - For this section, please make sure you are in our Github page: [Loan Syndication](https://nikanikachan.github.io/p3_loansyndication/)
-- Click [here](Frontend/index.html) to launch the Auction front end of our loan syndication contract.
+- Your metamask should be in the Ropsten network to see all the features
+- Click [here](https://nikanikachan.github.io/p3_loansyndication/Frontend/index.html) to launch the Auction front end of our loan syndication contract.
 
 **Note that for the purpose of this demo, the loan amount has been set to 1 ETH for easier testing.
 
