@@ -156,7 +156,7 @@ Optimization of Auction and Crowdsale contracts to minimize gas costs in deploym
 
 - This contract's Github Page: [Loan Syndication Github Page](https://nikanikachan.github.io/p3_loansyndication/)
 - **Dependencies:** Solidity, Remix, Ganache, Metamask
-- [Google Slides Presentation](https://github.com/Luminous171/Project_3/blob/main/2021-03-16%20-%20Loan%20Syndication.pdf)
+- [Presentation Slides](https://github.com/Luminous171/Project_3/blob/main/2021-03-16%20-%20Loan%20Syndication.pdf)
 
 ## 9. D-app Demo <a name="Demo"></a>
 
